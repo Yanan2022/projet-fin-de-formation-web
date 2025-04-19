@@ -1,0 +1,78 @@
+
+
+.navmenu img {
+    width: 60px;
+    height: 60px;
+    margin-left: 67px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    list-style: none;
+    align-items: center;
+    margin-right: 66px;
+}
+
+.navmenu{
+    display: flex;
+    justify-content: space-between;
+    padding : 15px; 
+    align-items: center;
+}
+
+.nav-links a {
+    text-decoration : none;
+    color: #484551;
+}
+
+.nav-links a:hover {
+    color: #4fa3db;
+    text-decoration: underline;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+
+.a-propos-de-nous-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.css-span{
+    color: #4fa3db;
+    font-weight: bold;
+}
+
+.regader-video-btn{
+    border: none;
+    width: 150px;
+    height: 50px;
+    margin-top: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.regader-video-btn:hover{
+    background-color: #4fa3db;
+    color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #484551;
+    color: white;
+}
+
+.footer-text {
+    font-size: 20px;
+    text-align: center;
+}
